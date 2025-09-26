@@ -148,7 +148,7 @@
                 </div>
 
                 <div class="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
-                    <div>&copy; {{ now()->year }} {{ $practice['name'] }}. {{ __('All rights reserved.') }} Site created by PJR&L.</div>
+                    <div>&copy; {{ now()->year }} {{ $practice['name'] }}. {{ __('All rights reserved.') }} Site by <a href="https://samueldigitalprovisions.com">Samuel Digital Provisions</a>.</div>
                     <div class="flex gap-4">
                         <a href="{{ route('privacy') }}" class="hover:text-white">{{ __('Privacy Policy') }}</a>
                         <a href="{{ route('terms') }}" class="hover:text-white">{{ __('Terms of Use') }}</a>

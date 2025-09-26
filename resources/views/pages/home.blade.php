@@ -76,7 +76,7 @@
     </div>
 </x-section>
 
-<x-section title="{{ __('Popular Insurance Partners') }}" :intro="__('We work with leading PPO plans and can confirm your coverage before you arrive.')">
+<x-section title="{{ __('Insurance and Coverage') }}" :intro="__('We work with leading PPO plans and can confirm your coverage before you arrive.')">
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         @foreach($insurances as $insurance)
             <div class="flex items-center justify-center rounded-3xl border border-black/10 bg-white px-6 py-6">
